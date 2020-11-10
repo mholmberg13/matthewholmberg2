@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Cover extends React.Component {
+class Banner extends React.Component {
     render() {
         return(
             <div>
@@ -11,4 +11,4 @@ class Cover extends React.Component {
     }
 }
 
-export default Cover;
+export default Banner;

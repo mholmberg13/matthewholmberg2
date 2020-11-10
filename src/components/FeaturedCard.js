@@ -1,13 +1,13 @@
 import React from 'react';
 
-class main extends React.Component {
+class Card extends React.Component {
     render() {
-        return (
+        return(
             <div>
-                
+
             </div>
         )
     }
 }
 
-export default main;
+export default Card;
