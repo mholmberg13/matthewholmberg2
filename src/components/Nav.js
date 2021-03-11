@@ -6,6 +6,8 @@ class Nav extends React.Component {
             <div>
                 <ul className="nav">
                     <li>Home</li>
+                    <li>Web Development</li>
+                    <li>3D Printing and Modeling</li>
                     <li>About Me</li>
                     <li>Contact Me</li>
                 </ul>
