@@ -3,8 +3,8 @@ import React from 'react';
 class Nav extends React.Component {
     render() {
         return (
-            <div>
-                <ul className="nav">
+            <div className="nav">
+                <ul className="nav-ul">
                     <li>Home</li>
                     <li>Web Development</li>
                     <li>3D Printing and Modeling</li>

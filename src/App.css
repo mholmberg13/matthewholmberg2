@@ -1,29 +1,55 @@
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Nav */
+.header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
 }
+
+.nav {
+  display: flex;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav li {
+  margin: 10px;
+}
+
+
+
+/* Banner */
+
+.sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover
+}
+
+/* Order Form */
 h2,
 label {
   color: #f5c518;
 }
-.App {
-  background-color: #000;
-  color: white;
-  min-height: 100vh;
-  width: 100vw;
-  padding: 40px 0;
-  font-size: 18px;
-}
+
 form {
   display: flex;
   flex-direction: column;
 }
+
 form label {
   margin-bottom: 4px;
 }
+
 form input {
   background-color: rgb(34, 34, 34);
   border: 1px solid rgb(67, 67, 67);
@@ -34,6 +60,7 @@ form input {
   padding: 4px;
   border-radius: 2px;
 }
+
 button {
   background-color: rgb(49, 49, 49);
   color: rgb(87, 153, 239);
@@ -42,14 +69,17 @@ button {
   outline: none;
   cursor: pointer;
 }
+
 form button {
   height: 20px;
   padding: 0 4px;
   margin: 4px auto 0 auto;
 }
+
 button:hover {
   background-color: rgb(69, 69, 69);
 }
+
 .DataInput {
   width: 500px;
   margin: 0 auto;
@@ -57,13 +87,16 @@ button:hover {
   padding: 20px;
   border-radius: 2px;
 }
+
 .DataInput h2 {
   text-decoration: underline;
   margin-bottom: 20px;
 }
+
 .DataInput button {
   margin-top: 12px;
 }
+
 .DataOutput {
   width: 500px;
   margin: 0 auto;
@@ -72,6 +105,7 @@ button:hover {
   border-radius: 2px;
   margin-top: 20px;
 }
+
 .DataOutput__card {
   border: 1px solid rgb(24, 24, 24);
   margin-bottom: 12px;
@@ -81,30 +115,38 @@ button:hover {
   padding: 20px;
   overflow: hidden;
 }
+
 .DataOutput__card--details {
   padding-right: 20px;
 }
+
 .DataOutput__card--details div {
   display: flex;
 }
+
 .DataOutput__card--details div:not(:last-child) {
   margin-bottom: 11px;
 }
+
 .DataOutput__card span {
   color: #f5c518;
   min-width: 110px;
 }
+
 .DataOutput__card--options {
   display: flex;
   justify-content: space-between;
   height: 20px;
 }
+
 .DataOutput__card--options button {
   padding: 0 4px;
 }
+
 .DataOutput__card--options button:not(:last-child) {
   margin-right: 18px;
 }
+
 .DataOutput__editing {
   border: 1px solid rgb(24, 24, 24);
   margin-bottom: 12px;
@@ -112,18 +154,25 @@ button:hover {
   justify-content: space-between;
   background-color: rgb(24, 24, 24);
 }
+
 .DataOutput__editing form {
   padding: 20px;
 }
+
 .DataOutput__editing--option {
   display: flex;
 }
+
 .DataOutput__editing--option label {
   min-width: 110px;
 }
+
 .DataOutput__editing--option input {
   width: 300px;
 }
+
 .DataOutput__editing--cancel {
   margin-left: 20px;
 }
+
+
