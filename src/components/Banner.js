@@ -10,7 +10,7 @@ class Banner extends React.Component {
     render() {
         return(
             <div>
-                <AliceCarousel autoPlay autoPlayInterval="3000">
+                <AliceCarousel autoPlay autoPlayInterval="3500" infinite={true} disableButtonsControls={true}>
                     <img src={image1} className="sliderimg" alt="laptop"/>
                     <img src={image2} className="sliderimg" alt="laptop"/>
                     <img src={image3} className="sliderimg" alt="wireframe"/>
