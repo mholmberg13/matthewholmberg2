@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header.js';
 import WebDev from './components/WebDev.js'
@@ -10,14 +10,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
+        <Router>
           <Header/>
           <Switch>
-            <Route path='/' exact component={HomePage} />
-            <Route path='/webdevelopment' component={WebDev} />
+            <Route exact path='/' component={HomePage} />
+            <Route exact path={'/webdevelopment'} component={ WebDev } />
           </Switch>
           <Footer/>
-        </BrowserRouter>
+        </Router>
       </div>
     );
   }

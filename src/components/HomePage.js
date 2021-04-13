@@ -10,7 +10,6 @@ class HomePage extends React.Component {
             <div>
                 <Banner/>
                 <Main/>
-                <Footer/>
             </div>
         )
     }

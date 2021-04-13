@@ -28,7 +28,7 @@ class Main extends React.Component {
                                 <p>
                                     We have designed, built, and maintained web applications, websites, and mobile applications for a variety of clients in a number of industries. Whether you are a small bussiness or a large company, we have the skills and rescources to solve your problem. 
                                 </p>
-                                <a href="/">Learn More</a>
+                                <a href="/webdevelopment">Learn More</a>
                             </div>
                         <div className="vert-line"></div>
                         <div className="main-bio">
