@@ -102,8 +102,7 @@
 }
 
 .main-bio:hover p {
-  font-size: 0.85vw;
-  transition-duration: 200ms
+  color: #f3a007;
 }
 
 .main-bio:hover h2 {
@@ -206,11 +205,12 @@
 .web-banner-container {
   width: 100%;
   height: 480px;
-  text-align: right;
+  text-align: left;
 }
 
 .web-banner-inner {
   width: 100%;
+  height: 480px;
   background-color: #e48202;
   display: flex;
   flex-direction: row;
@@ -225,7 +225,7 @@
 }
 
 .web-banner-content-container {
-  width: 28%;
+  width: 30%;
   z-index: 1;
   margin-left: -150px;
   margin-right: 100px;
@@ -236,28 +236,50 @@
   margin-right: 10px;
   margin-left: auto;
   margin-bottom: 0;
+  margin-top: 0;
   color: #f7f7f7;
   z-index: 1;
-  font-size: 40px;
+  font-size:55px;
+  line-height: 60px;
 }
 
 .web-content-inner h3 {
   margin-right: 20px;
-  margin-top: 0;
+  margin-top: 10;
 }
 
 .laptop-img {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  height: 400px;
   z-index: 11;
-  margin-top: -100px;
+  margin-top: -90px;
   margin-right: auto;
-  margin-left: -30px;
+  margin-left: -40px;
 }
 
 .laptop-img img {
-  width: 140%;
-  height: 500px;
+  object-fit: contain;
+  height: 400px;
+}
+
+.web-main {
+  text-align: center;
+}
+
+.web-main h1 {
+  color: #f3a007;
+}
+
+.skills {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.web-main-content-container ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 

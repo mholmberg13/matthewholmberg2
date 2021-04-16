@@ -15,13 +15,35 @@ class WebDev extends React.Component {
                                 <h3>
                                     Bringing creativity and originality to your web applications and software.
                                 </h3>
-                            </div>
-                            <div className='laptop-img'>
-                                <img src={Laptop}/>
+                                <div className='laptop-img'>
+                                    <img src={Laptop}/>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className='web-main'>
+                    <div className='web-main-content-container'>
+                        <div className='skills'>
+                            <h1>Skills</h1>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Node.js</li>
+                                <li>Ruby on Rails</li>
+                                <li>Git Management</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                        <div className='portfolio'>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         )
     }
