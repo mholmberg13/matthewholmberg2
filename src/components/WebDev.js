@@ -1,11 +1,14 @@
 import React from 'react';
 import BannerImage from '../img/Web-banner.png';
 import Laptop from '../img/computer.png';
+import Insomnia from '../img/insomnia-graphic.png';
+import Brian from '../img/Brian.png';
 
 class WebDev extends React.Component {
     render () {
         return (
             <div>
+
                 <div className='web-banner-container'>
                     <div className='web-banner-inner'>
                         <img src={BannerImage}/>
@@ -39,7 +42,11 @@ class WebDev extends React.Component {
                             </ul>
                         </div>
                         <div className='portfolio'>
-
+                            <h1>Portfolio</h1>
+                            <div className='brian-container'>
+                                <img src={Brian}/>
+                                <img src={Insomnia}/>
+                            </div>
                         </div>
                     </div>
                 </div>

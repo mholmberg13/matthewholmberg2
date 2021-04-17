@@ -264,6 +264,8 @@
 
 .web-main {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .web-main h1 {
@@ -277,11 +279,39 @@
   flex-direction: column;
 }
 
+.web-main-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .web-main-content-container ul {
   list-style-type: none;
   padding: 0;
 }
 
+.portfolio {
+  width: 45%;
+}
+
+.portfolio h1 {
+  width: 130px;
+}
+
+.brian-container {
+  width: 500px;
+  height: 300px;
+  background-color: #575757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brian-container img {
+  width: 95%;
+  height: 93%;
+}
 
 /* Order Form */
 h2,
