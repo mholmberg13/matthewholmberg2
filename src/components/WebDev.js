@@ -3,6 +3,7 @@ import BannerImage from '../img/Web-banner.png';
 import Laptop from '../img/computer.png';
 import Insomnia from '../img/insomnia-graphic.png';
 import Brian from '../img/Brian.png';
+import Crypto from '../img/crypto.png'
 
 class WebDev extends React.Component {
     render () {
@@ -43,9 +44,18 @@ class WebDev extends React.Component {
                         </div>
                         <div className='portfolio'>
                             <h1>Portfolio</h1>
-                            <div className='brian-container'>
-                                <img src={Brian}/>
-                                <img src={Insomnia}/>
+                            <div className='portfolio-images'>
+                                <div className='insom-container'>
+                                    <img className='insomnia-img' src={Insomnia}/>
+                                </div>
+                                <div className='brian-container'>
+                                    <div className='brian-background'>
+                                        <img className='brian-img' src={Brian}/>
+                                    </div>
+                                </div>
+                                <div className='crypto-container'>
+                                    <img className='crypto-img' src={Crypto}/>
+                                </div>
                             </div>
                         </div>
                     </div>
