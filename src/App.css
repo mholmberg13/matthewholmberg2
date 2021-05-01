@@ -266,10 +266,15 @@
   text-align: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .web-main h1 {
   color: #f3a007;
+}
+
+.port-title {
+  width: 100%;
 }
 
 .skills {
@@ -293,33 +298,40 @@
 
 .portfolio {
   width: 45%;
+  margin-right: auto;
+  margin-left: 25%;
 }
 
 .portfolio h1 {
-  width: 130px;
+  width: 110px;
 }
 
 .portfolio-images {
   display: grid;
-  grid-template-columns: repeat(12, lfr);
+  grid-template-columns: repeat(6, lfr);
   position: relative;
+  margin-right: 0;
 }
 
 .brian-container {
-  grid-column: 6 / -1;
+  grid-column: 4 / 1;
   grid-row: 1;
 }
 
 .insom-container {
-  grid-column: 1 / -1;
+  grid-column: 4 / -1;
   grid-row: 1;
-  padding-top: 125px;
+  padding-top: 145px;
   z-index: 1;
+  width: auto;
 }
 
 .crypto-container {
-  grid-column: 1 / 4;
+  grid-column: 1 / 1;
   grid-row: 1 ;
+  margin-top: 90px;
+  margin-left: -20%;
+  margin-right: auto;
 }
 
 .brian-background {

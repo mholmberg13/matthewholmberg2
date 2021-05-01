@@ -28,6 +28,7 @@ class WebDev extends React.Component {
                 </div>
 
                 <div className='web-main'>
+                    <h1 className='port-title'>Portfolio</h1>
                     <div className='web-main-content-container'>
                         <div className='skills'>
                             <h1>Skills</h1>
@@ -43,7 +44,6 @@ class WebDev extends React.Component {
                             </ul>
                         </div>
                         <div className='portfolio'>
-                            <h1>Portfolio</h1>
                             <div className='portfolio-images'>
                                 <div className='insom-container'>
                                     <img className='insomnia-img' src={Insomnia}/>
