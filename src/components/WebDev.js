@@ -45,16 +45,10 @@ class WebDev extends React.Component {
                         </div>
                         <div className='portfolio'>
                             <div className='portfolio-images'>
-                                <div className='insom-container'>
-                                    <img className='insomnia-img' src={Insomnia}/>
-                                </div>
-                                <div className='brian-container'>
-                                    <div className='brian-background'>
-                                        <img className='brian-img' src={Brian}/>
-                                    </div>
-                                </div>
-                                <div className='crypto-container'>
-                                    <img className='crypto-img' src={Crypto}/>
+                                <img className='insomnia-img' src={Insomnia}/>
+                                <img className='crypto-img' src={Crypto}/>
+                                <div className='brian-background'>
+                                    <img className='brian-img' src={Brian}/>
                                 </div>
                             </div>
                         </div>

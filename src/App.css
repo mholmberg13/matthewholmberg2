@@ -314,31 +314,9 @@
 }
 
 .portfolio-images {
-  display: grid;
-  grid-template-columns: repeat(6, lfr);
   position: relative;
+  overflow: hidden;
   margin-right: 0;
-}
-
-.brian-container {
-  grid-column: 4 / 1;
-  grid-row: 1;
-}
-
-.insom-container {
-  grid-column: 4 / -1;
-  grid-row: 1;
-  padding-top: 145px;
-  z-index: 1;
-  width: auto;
-}
-
-.crypto-container {
-  grid-column: 1 / 1;
-  grid-row: 1 ;
-  margin-top: 90px;
-  margin-left: -20%;
-  margin-right: auto;
 }
 
 .brian-background {
@@ -355,13 +333,19 @@
 }
 
 .insomnia-img {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
   width: 310px;
   height: 330px;
 }
 
 .crypto-img {
+  position: absolute;
+  overflow: hidden;
   width: 350px;
   height: 280px;
+  
 }
 
 /* Order Form */
