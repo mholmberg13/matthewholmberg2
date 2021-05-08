@@ -273,10 +273,6 @@
   color: #f3a007;
 }
 
-.port-title {
-  width: 100%;
-}
-
 .skills {
   display: flex;
   width: 30%;
@@ -293,6 +289,7 @@
 .web-main-content-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
 }
@@ -302,50 +299,53 @@
   padding: 0;
 }
 
-.portfolio {
-  width: 45%;
-  margin-right: auto;
-  margin-left: 25%;
-  margin-top: 30px;
+.web-intro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.portfolio h1 {
+.web-intro h1 {
   width: 110px;
 }
 
-.portfolio-images {
+.intro-summary-container {
+  width: 30%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+.intro-summary-container .port-name {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.intro-summary-container h4 {
+  margin-top: 0;
+}
+
+.intro-images {
   position: relative;
   overflow: hidden;
-  margin-right: 0;
+  width: 45%;
 }
 
-.brian-background {
-  background-color: #363636;
-  width: 500px;
-  height: 325px;
+.port-intro-img {
+  width: 100%;
 }
 
-.brian-img {
-  width: 500px;
-  height: 325px;
-  margin-top: -15px;
-  margin-left: -35px;
-}
+/* Portfolio Display */
 
-.insomnia-img {
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  width: 310px;
-  height: 330px;
-}
-
-.crypto-img {
-  position: absolute;
-  overflow: hidden;
-  width: 350px;
-  height: 280px;
-  
+.port-display-container {
+  width: 45%;
+  border: 1px solid #a8a7a7;
+  border-radius: 10px;
+  margin-top: 7vw;
 }
 
 /* Order Form */
