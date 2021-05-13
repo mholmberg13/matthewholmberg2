@@ -1,4 +1,8 @@
 import React from 'react';
+import MedIcon from '../img/med3d-icon.png';
+import PrintIcon from '../img/Printr2-icon.png';
+import CryptoIcon from '../img/cryptotrack-icon.png';
+import Cylog from '../img/cylog-icon.png';
 
 class PortDisplay extends React.Component {
     render () {
@@ -11,12 +15,16 @@ class PortDisplay extends React.Component {
                             <p>Med-3D is a 3D Printing service that provides underfunded medical centers to order medical supplies that is 3D printed by users with home printers.</p>
                             <a href='#'>See Github</a>
                             <div className="tools-used">
+                                <h4>Built with:</h4>
                                 <ul>
                                     <li>REACT</li>
                                     <li>Node.js</li>
                                     <li>Express</li>
                                     <li>Mongoose</li>
                                 </ul>
+                            </div>
+                            <div className='icon-container'>
+                                <img src={MedIcon}/>
                             </div>
                         </div>
                     </div>
@@ -26,12 +34,16 @@ class PortDisplay extends React.Component {
                             <p>Print-R2 is a dashboard system that helps users with 3D-Printers streamline print-on-demand services. It's client side will feature both a web and mobile application.</p>
                             <a href='#'>See Github</a>
                             <div className="tools-used">
+                                <h4>Built with:</h4>
                                 <ul>
                                     <li>REACT</li>
                                     <li>Node.js</li>
                                     <li>Express</li>
                                     <li>Mongoose</li>
                                 </ul>
+                            </div>
+                            <div className='icon-container'>
+                                <img src={PrintIcon}/>
                             </div>
                         </div>
                     </div>
@@ -41,12 +53,16 @@ class PortDisplay extends React.Component {
                             <p>Crypto-Tracker is a web application that allows users to track crypto-currency prices based off of their own personalized settings and preferences.</p>
                             <a href='#'>See Github</a>
                             <div className="tools-used">
+                                <h4>Built with:</h4>
                                 <ul>
                                     <li>REACT</li>
                                     <li>Node.js</li>
                                     <li>Express</li>
                                     <li>Mongoose</li>
                                 </ul>
+                            </div>
+                            <div className='icon-container'>
+                                <img src={CryptoIcon}/>
                             </div>
                         </div>
                     </div>
@@ -63,6 +79,9 @@ class PortDisplay extends React.Component {
                                     <li>Express</li>
                                     <li>Mongoose</li>
                                 </ul>
+                            </div>
+                            <div className='icon-container'>
+                                <img src={Cylog}/>
                             </div>
                         </div>
                     </div>
