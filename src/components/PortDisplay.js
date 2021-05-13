@@ -23,9 +23,9 @@ class PortDisplay extends React.Component {
                                     <li>Mongoose</li>
                                 </ul>
                             </div>
-                            <div className='icon-container'>
+                        </div>
+                        <div className='icon-container'>
                                 <img src={MedIcon}/>
-                            </div>
                         </div>
                     </div>
                     <div className='port-card-container'>
@@ -42,9 +42,9 @@ class PortDisplay extends React.Component {
                                     <li>Mongoose</li>
                                 </ul>
                             </div>
-                            <div className='icon-container'>
-                                <img src={PrintIcon}/>
-                            </div>
+                        </div>
+                        <div className='icon-container'>
+                            <img src={PrintIcon}/>
                         </div>
                     </div>
                     <div className='port-card-container'>
@@ -61,9 +61,9 @@ class PortDisplay extends React.Component {
                                     <li>Mongoose</li>
                                 </ul>
                             </div>
-                            <div className='icon-container'>
-                                <img src={CryptoIcon}/>
-                            </div>
+                        </div>
+                        <div className='icon-container'>
+                            <img src={CryptoIcon}/>
                         </div>
                     </div>
                     <div className='port-card-container'>
@@ -80,9 +80,9 @@ class PortDisplay extends React.Component {
                                     <li>Mongoose</li>
                                 </ul>
                             </div>
-                            <div className='icon-container'>
-                                <img src={Cylog}/>
-                            </div>
+                        </div>
+                        <div className='icon-container'>
+                            <img src={Cylog}/>
                         </div>
                     </div>
                 </div>

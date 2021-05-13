@@ -345,11 +345,12 @@
 /* Portfolio Display */
 
 .port-display-container {
-  width: 55%;
+  width: 65%;
   height: fit-content;
   border: 1px solid #a8a7a7;
   border-radius: 10px;
   margin-top: 7vw;
+  margin-left: 4%;
 }
 
 .portfolio-display {
@@ -359,18 +360,25 @@
 .port-card-container {
   height: 22%;
   border-bottom: 1px solid rgb(67, 67, 67);
+  display: flex;
 }
 
 .port-card {
   height: 100%;
+  width: 88%;
   text-align: left;
   padding-bottom: 15px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
 .port-card h2 {
   margin-top: 0;
+}
+
+.port-card p {
+  width: 90%;  
 }
 
 .tools-used {
@@ -387,12 +395,17 @@
 }
 
 .icon-container {
-  width: 5vw;
-  height: 5vw;
-  margin-right: -50px;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: 7%;
+  width: 80px;
+  height: 80px;
+  margin-top: 5%;
+}
+
+.port-card-container:hover .icon-container {
+  width: 160px;
+  height: 160px;
+  margin-left: 7%;
+  margin-right: -7%;
+  margin-top: 6%;
 }
 
 .icon-container img {
