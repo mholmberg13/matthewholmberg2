@@ -66,7 +66,7 @@ class PortDisplay extends React.Component {
                             <img src={CryptoIcon}/>
                         </div>
                     </div>
-                    <div className='port-card-container'>
+                    <div className='port-card-container-alt'>
                         <div className='port-card'>
                             <h2>Cy-Log</h2>
                             <p>Cy-Log is a web application that allows users to keep a detailed scientific journal that can be accessed from anywhere. Cy-Log will soon allow users to create a secure account and encrypt the users information.</p>

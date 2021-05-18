@@ -363,6 +363,11 @@
   display: flex;
 }
 
+.port-card-container-alt {
+  height: 22%;
+  display: flex;
+}
+
 .port-card {
   height: 100%;
   width: 88%;
@@ -381,6 +386,10 @@
   width: 90%;  
 }
 
+.port-card-container:hover .port-card p {
+  width: auto;
+}
+
 .tools-used {
  display: none;
 }
@@ -394,10 +403,23 @@
   margin-right: 15px;
 }
 
+.port-card-container-alt:hover .tools-used, .tools-used h4 {
+  display: block;
+}
+
+.port-card-container-alt:hover .tools-used li {
+  display: inline;
+  margin-right: 15px;
+}
+
 .icon-container {
   width: 80px;
   height: 80px;
   margin-top: 5%;
+}
+
+.port-card-container-alt .icon-container {
+  margin-top: 7%;
 }
 
 .port-card-container:hover .icon-container {
@@ -406,6 +428,16 @@
   margin-left: 7%;
   margin-right: -7%;
   margin-top: 6%;
+  transition-duration: 0.3s;
+}
+
+.port-card-container-alt:hover .icon-container {
+  width: 160px;
+  height: 160px;
+  margin-left: 7%;
+  margin-right: -7%;
+  margin-top: 9%;
+  transition-duration: 0.3s;
 }
 
 .icon-container img {
