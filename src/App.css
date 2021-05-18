@@ -379,11 +379,16 @@
 }
 
 .port-card h2 {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .port-card p {
   width: 90%;  
+}
+
+.port-card a {
+  text-decoration: none;
+  color: #e48202;
 }
 
 .port-card-container:hover .port-card p {
@@ -418,6 +423,11 @@
   margin-top: 5%;
 }
 
+.icon-container img {
+  width: 100%;
+  height: 100%;
+}
+
 .port-card-container-alt .icon-container {
   margin-top: 7%;
 }
@@ -440,10 +450,6 @@
   transition-duration: 0.3s;
 }
 
-.icon-container img {
-  width: 100%;
-  height: 100%;
-}
 
 /* Order Form */
 h2,
