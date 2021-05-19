@@ -342,6 +342,25 @@
   width: 100%;
 }
 
+/* Skills */
+
+.Skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.Skills h1 {
+  width: 100%;
+}
+
+.Skills h3 {
+  width: 30%;
+}
+
 /* Portfolio Display */
 
 .port-display-container {
@@ -379,7 +398,7 @@
 }
 
 .port-card h2 {
-  margin-top: 10px;
+  margin-top: 10px  ;
 }
 
 .port-card p {
@@ -420,7 +439,7 @@
 .icon-container {
   width: 80px;
   height: 80px;
-  margin-top: 5%;
+  align-self: center;
 }
 
 .icon-container img {
@@ -429,7 +448,7 @@
 }
 
 .port-card-container-alt .icon-container {
-  margin-top: 7%;
+  align-self: center;
 }
 
 .port-card-container:hover .icon-container {
@@ -437,7 +456,7 @@
   height: 160px;
   margin-left: 7%;
   margin-right: -7%;
-  margin-top: 6%;
+  align-self: center;
   transition-duration: 0.3s;
 }
 
@@ -446,7 +465,7 @@
   height: 160px;
   margin-left: 7%;
   margin-right: -7%;
-  margin-top: 9%;
+  align-self: center;
   transition-duration: 0.3s;
 }
 

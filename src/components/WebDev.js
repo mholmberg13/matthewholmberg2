@@ -3,6 +3,7 @@ import BannerImage from '../img/Web-banner.png';
 import Laptop from '../img/computer.png';
 import PortIntro from '../img/port-intro.png';
 import PortDisplay from './PortDisplay.js';
+import Skills from './Skills.js';
 
 class WebDev extends React.Component {
     render () {
@@ -40,20 +41,8 @@ class WebDev extends React.Component {
                                 <img className='port-intro-img' src={PortIntro}/>
                             </div>
                         </div>
+                        <Skills/>
                         <PortDisplay/>
-                        <div className='skills'>
-                            <h1>Skills</h1>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>React</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Node.js</li>
-                                <li>Ruby on Rails</li>
-                                <li>Git Management</li>
-                                <li>Flexbox</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
 
