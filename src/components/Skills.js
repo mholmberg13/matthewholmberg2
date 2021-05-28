@@ -5,15 +5,15 @@ class Skills extends React.Component {
         return (
             <div className='Skills'>
                 <h1>Skills and Proficiencies</h1>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>JavaScript</h3>
-                <h3>React</h3>
-                <h3>React Native</h3>
-                <h3>Node.js</h3>
-                <h3>Ruby on Rails</h3>
-                <h3>Flexbox</h3>
-                <h3>Grid</h3>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+                <h4>JavaScript</h4>
+                <h4>React</h4>
+                <h4>React Native</h4>
+                <h4>Node.js</h4>
+                <h4>Ruby on Rails</h4>
+                <h4>Flexbox</h4>
+                <h4>Grid</h4>
             </div>
         )
     }
