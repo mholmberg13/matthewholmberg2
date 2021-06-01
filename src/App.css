@@ -383,7 +383,8 @@
 /* Skills */
 
 .Skills {
-  width: 80%;
+  width: 70%;
+  height: 10em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -391,12 +392,19 @@
   margin-top: 50px;
 }
 
+.skill-container {
+  width: 15%;
+  height: 3em;
+}
+
 .Skills h1 {
   width: 100%;
 }
 
-.Skills h4 {
-  width: 20%;
+.skill-container:hover h4 {
+  font-size: 150%;
+  transition-duration: 500ms;
+  margin-top: -5%;
 }
 
 /* Portfolio Display */
