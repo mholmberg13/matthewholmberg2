@@ -30,16 +30,17 @@ class WebDev extends React.Component {
                 <div className='web-main'>
                     <div className='web-main-content-container'>
                         <div className='web-intro'>
-                            <div className='intro-summary-container'>
+                            <div className='intro-container'>
                                 <div className='intro-heading'>
                                     <h2 className='port-name'>Matthew Holmberg</h2>
                                     <h1 className='port-heading'>Full Stack Web Developer</h1>
                                 </div>
+                                <hr></hr>
                             </div>
                             <div className='intro-images'>
                                 <img className='port-intro-img' src={PortIntro}/>
                                 <div className='intro-summary'>
-                                    <p>As an exprienced Full Stack Web Developer with a focus on JavaScript, I have designed, maintained, and built web applications for a number of clients in a variety of industries. Whether your website needs redesigned or your businiess needs a web application to help streamline production, I can help.  </p>
+                                    <p><span id='big-a'>A</span>s an exprienced Full Stack Web Developer with a focus on JavaScript, I have designed, maintained, and built web applications for a number of clients in a variety of industries. Whether your website needs redesigned or your businiess needs a web application to help streamline production, I can help.  </p>
                                 </div>
                             </div>
                             <Skills/>

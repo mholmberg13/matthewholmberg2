@@ -14,6 +14,7 @@ class Skills extends React.Component {
                 <h4>Ruby on Rails</h4>
                 <h4>Flexbox</h4>
                 <h4>Grid</h4>
+                <h4>Git Management</h4>
             </div>
         )
     }
