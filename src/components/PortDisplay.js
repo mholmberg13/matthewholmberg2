@@ -1,14 +1,33 @@
 import React from 'react';
+import Skills from './Skills.js'
 import MedIcon from '../img/med3d-icon.png';
 import PrintIcon from '../img/Printr2-icon.png';
 import CryptoIcon from '../img/cryptotrack-icon.png';
 import Cylog from '../img/cylog-icon.png';
 
 class PortDisplay extends React.Component {
+
+    state = {
+        tab: 0
+    }
+
+    handleTabChange = () => {
+        if (this.state.tab === 0) {
+            this.setState({tab: 1})
+        } else if (this.state.tab === 1) {
+            this.setState({tab: 0})
+        }
+    }
+
+    handleSwitch = () => {
+    }
+
     render () {
         return (
             <div className='port-display-container'>
-                <div className='portfolio-display'>
+                <h2 onClick={this.handleTabChange}>Portfolio</h2>
+                <h2 onClick={this.handleTabChange}>Skills</h2>
+                {this.state.tab === 0 ? <div className='portfolio-display'>
                     <div className='port-card-container'>
                         <div className='port-card'>
                             <h2>Med-3D</h2>
@@ -85,7 +104,8 @@ class PortDisplay extends React.Component {
                             <img src={Cylog}/>
                         </div>
                     </div>
-                </div>
+                </div> : <Skills/> }
+                
             </div>
         )
     }

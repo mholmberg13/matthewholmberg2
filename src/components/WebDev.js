@@ -43,7 +43,6 @@ class WebDev extends React.Component {
                                     <p><span id='big-a'>A</span>s an exprienced Full Stack Web Developer with a focus on JavaScript, I have designed, maintained, and built web applications for a number of clients in a variety of industries. Whether your website needs redesigned or your businiess needs a web application to help streamline production, I can help.  </p>
                                 </div>
                             </div>
-                            <Skills/>
                         </div>
                         <PortDisplay/>
                     </div>
