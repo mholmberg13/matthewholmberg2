@@ -19,14 +19,13 @@ class PortDisplay extends React.Component {
         }
     }
 
-    handleSwitch = () => {
-    }
-
     render () {
         return (
             <div className='port-display-container'>
-                <h2 onClick={this.handleTabChange}>Portfolio</h2>
-                <h2 onClick={this.handleTabChange}>Skills</h2>
+                <div className='tabs'>
+                    <h3 onClick={this.handleTabChange} className='port-tab'>Portfolio</h3>
+                    <h3 onClick={this.handleTabChange} className='port-tab'>Skills</h3>
+                </div>
                 {this.state.tab === 0 ? <div className='portfolio-display'>
                     <div className='port-card-container'>
                         <div className='port-card'>

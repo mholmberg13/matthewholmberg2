@@ -409,6 +409,21 @@
 
 /* Portfolio Display */
 
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35%;
+  height: auto;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.port-tab {
+  width: 12%;
+  margin: 0;
+}
+
 .port-display-container {
   width: 65%;
   height: fit-content;
