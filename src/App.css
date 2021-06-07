@@ -383,13 +383,15 @@
 /* Skills */
 
 .Skills {
-  width: 70%;
-  height: 10em;
+  width: 100%;
+  height: auto;
+  overflow: visible;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 50px;
+  padding-bottom: 20px;
 }
 
 .skill-container {
@@ -412,15 +414,15 @@
 .tabs {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 35%;
+  justify-content: space-between;
+  width: 15%;
   height: auto;
-  margin-left: 0;
+  margin-left: 15px;
   margin-right: auto;
 }
 
 .port-tab {
-  width: 12%;
+  width: auto;
   margin: 0;
 }
 
@@ -431,6 +433,8 @@
   border-radius: 10px;
   margin-top: 7vw;
   margin-left: 4%;
+  overflow: visible;
+  margin-bottom: 30px;
 }
 
 .portfolio-display {
@@ -463,7 +467,7 @@
 }
 
 .port-card p {
-  width: 90%;  
+  width: 90%;
 }
 
 .port-card a {

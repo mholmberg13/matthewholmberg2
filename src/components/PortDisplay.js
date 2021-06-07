@@ -11,10 +11,14 @@ class PortDisplay extends React.Component {
         tab: 0
     }
 
-    handleTabChange = () => {
+    handleSkillChange = () => {
         if (this.state.tab === 0) {
             this.setState({tab: 1})
-        } else if (this.state.tab === 1) {
+        } 
+    }
+
+    handlePortChange = () => {
+        if (this.state.tab === 1) {
             this.setState({tab: 0})
         }
     }
@@ -23,9 +27,10 @@ class PortDisplay extends React.Component {
         return (
             <div className='port-display-container'>
                 <div className='tabs'>
-                    <h3 onClick={this.handleTabChange} className='port-tab'>Portfolio</h3>
-                    <h3 onClick={this.handleTabChange} className='port-tab'>Skills</h3>
+                    <h3 onClick={this.handlePortChange} className='port-tab'>Portfolio</h3>
+                    <h3 onClick={this.handleSkillChange} className='port-tab'>Skills</h3>
                 </div>
+                <hr/>
                 {this.state.tab === 0 ? <div className='portfolio-display'>
                     <div className='port-card-container'>
                         <div className='port-card'>
