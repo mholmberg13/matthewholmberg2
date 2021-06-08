@@ -302,6 +302,10 @@
   padding: 0;
 }
 
+.web-main-content-container li {
+  color: #e48202;
+}
+
 .web-intro {
   width: 100%;
   display: flex;
@@ -390,23 +394,30 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 50px;
-  padding-bottom: 20px;
+  gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 .skill-container {
-  width: 15%;
+  width: 20%;
   height: 3em;
 }
 
 .Skills h1 {
   width: 100%;
+  margin-bottom: 5px;
+}
+
+.skill-container h4 {
+  color: #525252;
 }
 
 .skill-container:hover h4 {
   font-size: 150%;
   transition-duration: 500ms;
   margin-top: -5%;
+  color: #e48202;
 }
 
 /* Portfolio Display */
@@ -415,26 +426,44 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 15%;
+  width: 17%;
   height: auto;
-  margin-left: 15px;
-  margin-right: auto;
+  margin: 8px auto 8px auto;
+}
+
+.tabs h3 {
+  font-size: 22px;
+}
+
+.tabs hr {
+  margin-top: 8px;
+  margin-bottom: 7px;
 }
 
 .port-tab {
   width: auto;
   margin: 0;
+  color: #575757;
+}
+
+.port-tab:hover {
+  color: #f3a007;
+  cursor: pointer;
 }
 
 .port-display-container {
   width: 65%;
   height: fit-content;
-  border: 1px solid #a8a7a7;
   border-radius: 10px;
   margin-top: 7vw;
-  margin-left: 4%;
   overflow: visible;
   margin-bottom: 30px;
+}
+
+.port-tab-line {
+  width: 13%;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
 .portfolio-display {
@@ -468,6 +497,7 @@
 
 .port-card p {
   width: 90%;
+  color: #929292;
 }
 
 .port-card a {
