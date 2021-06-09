@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "React-Native", "Node.js", "Ruby on Rails", "Flexbox", "Grid", "Git Management"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "React-Native", "Node.js", "Ruby on Rails", "Flexbox", "Grid", "Git Management", "Express.js", "Mongoose"];
 
 class Skills extends React.Component {
 
@@ -14,6 +14,9 @@ class Skills extends React.Component {
                         <h4>{skill}</h4>
                     </div>
                 ))}
+
+                <h2>And More...</h2>
+
             </div>
         )
     }

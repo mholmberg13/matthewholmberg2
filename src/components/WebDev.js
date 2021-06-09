@@ -40,7 +40,7 @@ class WebDev extends React.Component {
                             <div className='intro-images'>
                                 <img className='port-intro-img' src={PortIntro}/>
                                 <div className='intro-summary'>
-                                    <p><span id='big-a'>A</span>s an exprienced Full Stack Web Developer with a focus on JavaScript, I have designed, maintained, and built web applications for a number of clients in a variety of industries. Whether your website needs redesigned or your businiess needs a web application to help streamline production, I can help.  </p>
+                                    <p><span id='big-a'>A</span>s an exprienced Full Stack Web Developer with a focus on JavaScript, I have designed, maintained, and built web applications for a number of clients in a variety of industries. Whether your website needs redesigned or your businiess needs a web application to streamline production, I can help.  </p>
                                 </div>
                             </div>
                         </div>
