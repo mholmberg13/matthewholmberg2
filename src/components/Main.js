@@ -19,7 +19,7 @@ class Main extends React.Component {
                                 <p>
                                     Do you have a 3D model that you would like printed? Just send us the file and we will print it for you at an affordable price! Do you need an object modeled? We can do that too! Just contact us with a description of what you need and we can give you a quote. We provide a number of materials and colors.
                                 </p>
-                                <a href="/">Learn More</a>
+                                <a href="/3dprinting-prototyping">Learn More</a>
                             </div>
                         <div className="vert-line"></div>
                         <div className="main-bio">
@@ -37,7 +37,7 @@ class Main extends React.Component {
                             <p>
                                 Do you have an invention or an idea that you dont have the resources or know-how to build? We can help you design and build a prototype with full confidentiality. Specializing in small electronics, robotics, and mechanics, we have a team of experienced engineers ready to bring your idea to life. 
                             </p>
-                            <a href="/">Learn More</a>
+                            <a href="/3dprinting-prototyping">Learn More</a>
                         </div>
                     </div>
                 </div>

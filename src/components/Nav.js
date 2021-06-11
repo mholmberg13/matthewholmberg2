@@ -10,7 +10,7 @@ class Nav extends React.Component {
                 <ul className="nav-ul">
                     <li> <Link to='/' className='nav-link'> Home </Link> </li>
                     <li> <Link to='/webdevelopment' className='nav-link'>Web Development</Link></li>
-                    <li>3D Printing and Modeling</li>
+                    <li> <Link to='/3dprinting-prototyping' className='nav-link'>3D Printing and Prototyping</Link></li>
                     <li>About Me</li>
                     <li>Contact Me</li>
                 </ul>
