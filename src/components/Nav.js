@@ -11,7 +11,7 @@ class Nav extends React.Component {
                     <li> <Link to='/' className='nav-link'> Home </Link> </li>
                     <li> <Link to='/webdevelopment' className='nav-link'>Web Development</Link></li>
                     <li> <Link to='/3dprinting-prototyping' className='nav-link'>3D Printing and Prototyping</Link></li>
-                    <li>About Me</li>
+                    <li><Link to='/about-me' className='nav-link'>About Me</Link></li>
                     <li>Contact Me</li>
                 </ul>
             </div>
