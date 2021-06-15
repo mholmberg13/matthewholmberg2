@@ -221,6 +221,38 @@
   color: #f3a007;
 }
 
+/* About Me */
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 10px 65px 10px;
+}
+
+.portrait-container {
+  width: 50%;
+  height: 375px;
+  background-color: #575757;
+}
+
+.header-bio-container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading {
+  width: 100%;
+}
+
+.header-bio-container p {
+  width: 80%;
+}
+
 /* Footer */
 
 .footer-container {
