@@ -7,6 +7,7 @@ import Footer from './components/Footer.js';
 import HomePage from './components/HomePage';
 import ThreeDProto from './components/ThreeDProto.js';
 import AboutMe from './components/AboutMe.js';
+import ContactMe from './components/ContactMe.js';
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Route exact path={'/webdevelopment'} component={ WebDev } />
             <Route exact path={'/3dprinting-prototyping'} component={ ThreeDProto } />
             <Route exact path={'/about-me'} component={ AboutMe } />
+            <Route exact path={'/contact-me'} component={ ContactMe } />
           </Switch>
           <Footer/>
         </Router>

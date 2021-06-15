@@ -12,7 +12,7 @@ class Nav extends React.Component {
                     <li> <Link to='/webdevelopment' className='nav-link'>Web Development</Link></li>
                     <li> <Link to='/3dprinting-prototyping' className='nav-link'>3D Printing and Prototyping</Link></li>
                     <li><Link to='/about-me' className='nav-link'>About Me</Link></li>
-                    <li>Contact Me</li>
+                    <li><Link to='/contact-me' className='nav-link'>Contact Me</Link></li>
                 </ul>
             </div>
         )
