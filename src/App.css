@@ -13,11 +13,12 @@
   flex-direction: row;
 }
 
+
+
 .header-heading {
-  margin-top: 18px;
-  margin-left: 20px;
   height: auto;
   color: #363636;
+  margin-top: 2.5%;
 }
 
 .nav {
@@ -62,8 +63,15 @@
 
 /* Main */
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   text-align: center;
+  max-width: 1500px;
 }
 
 .main-title {
@@ -650,6 +658,72 @@
   transition-duration: 0.3s;
 }
 
+/* Contact-Request Form */
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.contact-me hr {
+  width: 500px;
+  height: 1px;
+  background-color: #929292;
+}
+
+.contact-me h1 {
+  color: #f3a007;
+}
+
+.contact-me p {
+  width: 400px;
+  text-align: center;
+}
+
+.form-container {
+  width: 400px;
+  height: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-group input, textarea {
+  width: 100%;
+  background-color: white;
+  color: #363636;
+}
+
+.form-group textarea {
+  height: 110px;
+}
+
+.contact-label {
+  width: 100%;
+  font-weight: 700;
+}
+
+.contact-form button {
+  background-color: white;
+  color: #f3a007;
+  font-size: 1.5em;
+  font-family: 'Titillium Web', sans-serif;
+  width: 4em;
+  height: auto;
+  transition-duration: 3ms;
+}
+
+.contact-form button:hover {
+  color: white;
+  background-color: #575757;
+}
 
 /* Order Form */
 h2,
