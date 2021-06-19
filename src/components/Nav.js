@@ -8,11 +8,11 @@ class Nav extends React.Component {
         return (
             <div className="nav">
                 <ul className="nav-ul">
-                    <li> <Link to='/' className='nav-link'> Home </Link> </li>
-                    <li> <Link to='/webdevelopment' className='nav-link'>Web Development</Link></li>
-                    <li> <Link to='/3dprinting-prototyping' className='nav-link'>3D Printing and Prototyping</Link></li>
-                    <li><Link to='/about-me' className='nav-link'>About Me</Link></li>
-                    <li><Link to='/contact-me' className='nav-link'>Contact Me</Link></li>
+                    <li> <Link to='/' className='nav-link ham-link'> Home </Link> </li>
+                    <li> <Link to='/webdevelopment' className='nav-link ham-link'>Web Development</Link></li>
+                    <li> <Link to='/3dprinting-prototyping' className='nav-link ham-link'>3D Printing and Prototyping</Link></li>
+                    <li><Link to='/about-me' className='nav-link ham-link'>About Me</Link></li>
+                    <li><Link to='/contact-me' className='nav-link ham-link'>Contact Me</Link></li>
                 </ul>
             </div>
         )
