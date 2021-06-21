@@ -813,11 +813,13 @@
   color: #525252;
 }
 
-.skill-container:hover h4 {
-  font-size: 150%;
-  transition-duration: 500ms;
-  margin-top: -5%;
-  color: #e48202;
+@media only screen and (min-width: 770px) {
+  .skill-container:hover h4 {
+    font-size: 150%;
+    transition-duration: 500ms;
+    margin-top: -5%;
+    color: #e48202;
+  }
 }
 
 /* Portfolio Display */
