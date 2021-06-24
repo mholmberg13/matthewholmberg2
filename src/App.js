@@ -15,13 +15,15 @@ class App extends React.Component {
       <div className="App">
         <Router>
           <Header/>
-          <Switch>
-            <Route exact path='/' component={HomePage} />
-            <Route exact path={'/webdevelopment'} component={ WebDev } />
-            <Route exact path={'/3dprinting-prototyping'} component={ ThreeDProto } />
-            <Route exact path={'/about-me'} component={ AboutMe } />
-            <Route exact path={'/contact-me'} component={ ContactMe } />
-          </Switch>
+          <div className='content-wrapper'>
+            <Switch>
+              <Route exact path='/' component={HomePage} />
+              <Route exact path={'/webdevelopment'} component={ WebDev } />
+              <Route exact path={'/3dprinting-prototyping'} component={ ThreeDProto } />
+              <Route exact path={'/about-me'} component={ AboutMe } />
+              <Route exact path={'/contact-me'} component={ ContactMe } />
+            </Switch>
+          </div>
           <Footer/>
         </Router>
       </div>

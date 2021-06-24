@@ -1,8 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+html {
+  height: 100%;
+}
+
+
+body {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#root {
+  height: 100%;
+}
+
 .App {
   font-family: 'Titillium Web', sans-serif;
-  color: #363636
+  color: #363636;
+  min-height: 100%;
+  position: relative;
+}
+
+.content-wrapper {
+  height: 100%;
+  padding-bottom: 80px;
 }
 
 /* Nav */
@@ -459,10 +481,18 @@
 
 .print-proto {
   text-align: center;
+  height: 100%;
+  padding-bottom: 250px;
+}
+
+.print-proto h1 {
+  margin-right: 0;
 }
 
 .print-proto-heading {
   color: #f3a007;
+  width: 95%;
+  margin-right: 0;
 }
 
 .print-proto-main {
@@ -471,11 +501,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+  width: 100%;
 }
 
 .print-banner-container {
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .print-banner-container img {
@@ -484,12 +515,34 @@
 }
 
 .print-proto-bio {
-  width: 450px;
+  width: 90%;
 }
 
 .print-proto-bio p {
   font-size: 20px;
   color: #f3a007;
+}
+
+@media only screen and (min-width: 770px) {
+
+  .print-proto {
+    height: auto;
+  }
+
+  .print-banner-container {
+    width: 500px;
+    height: 300px;
+  }
+
+  .print-proto-bio {
+    width: 40%;
+    height: auto;
+  }
+
+  .print-proto-main {
+    width: auto;
+  }
+
 }
 
 /* About Me */
@@ -527,13 +580,16 @@
 /* Footer */
 
 .footer-container {
-  height: 180px;
+  position: absolute;
+  width: 100%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(41, 41, 41);
   color: white;
-  margin-bottom: 0;
+  overflow: hidden;
+  bottom: 0;
 }
 
 .footer-content {
@@ -570,7 +626,6 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  width: 100%;
 }
 
 .intro-container .port-heading {
