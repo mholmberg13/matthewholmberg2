@@ -482,7 +482,7 @@ body {
 .print-proto {
   text-align: center;
   height: 100%;
-  padding-bottom: 250px;
+  padding-bottom: 80px;
 }
 
 .print-proto h1 {
@@ -549,19 +549,21 @@ body {
 
 .about-me {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  margin: 10px 10px 65px 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 65px 10px;
 }
 
 .portrait-container {
-  width: 50%;
+  width: 90%;
   height: 375px;
   background-color: #575757;
 }
 
 .header-bio-container {
-  width: 50%;
+  width: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -575,6 +577,18 @@ body {
 
 .header-bio-container p {
   width: 80%;
+}
+
+@media only screen and (min-width: 770px) {
+
+  .about-me {
+    margin-top: 60px;
+  }
+
+  .portrait-container {
+    width: 40%;
+  }
+
 }
 
 /* Footer */
@@ -1071,6 +1085,13 @@ body {
 
 /* Contact-Request Form */
 
+.contact-me-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-me {
   display: flex;
   flex-direction: column;
@@ -1078,10 +1099,11 @@ body {
   justify-content: center;
   margin-bottom: 100px;
   margin-top: 80px;
+  width: 80%;
 }
 
 .contact-me hr {
-  width: 500px;
+  width: 60%;
   height: 1px;
   background-color: #929292;
 }
@@ -1091,19 +1113,24 @@ body {
 }
 
 .contact-me p {
-  width: 400px;
+  width: 80%;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .form-container {
-  width: 400px;
+  width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 80%;
 }
 
 .form-group input, textarea {
@@ -1134,6 +1161,13 @@ body {
 .contact-form button:hover {
   color: white;
   background-color: #575757;
+}
+
+@media only screen and (min-width: 770px) {
+  .form-container {
+    width: 60%;
+    margin-top: 30px;
+  }
 }
 
 /* Order Form */
