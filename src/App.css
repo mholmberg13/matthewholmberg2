@@ -350,11 +350,12 @@ body {
   .main-bio {
     width: 25%;
     margin-bottom: 20px;
+    transition-duration: 200ms;
   }
   
   .main-bio p {
     font-size: 0.83;
-    transition-duration: 200ms
+    transition-duration: 200ms;
   }
   
   .main-bio:hover p {
@@ -366,7 +367,7 @@ body {
     font-size: 1.75vw;
     margin-top: 0;
     margin-bottom: 25px;
-    transition-duration: 200ms
+    transition-duration: 200ms;
   }
   
   .vert-line {
@@ -385,6 +386,7 @@ body {
 
   #print-card {
     order: 1;
+    transition-duration: 200ms
   }
 
   #web-card {
@@ -393,6 +395,7 @@ body {
 
   #proto-card {
     order: 5;
+    transition-duration: 200ms
   }
   
   #bio-web-title {
@@ -1149,8 +1152,8 @@ body {
 }
 
 .contact-form button {
-  background-color: white;
-  color: #f3a007;
+  color: white;
+  background-color: #575757;
   font-size: 1.5em;
   font-family: 'Titillium Web', sans-serif;
   width: 4em;
@@ -1158,14 +1161,9 @@ body {
   transition-duration: 3ms;
 }
 
-.contact-form button:hover {
-  color: white;
-  background-color: #575757;
-}
-
 @media only screen and (min-width: 770px) {
   .form-container {
-    width: 60%;
+    width: 50%;
     margin-top: 30px;
   }
 }

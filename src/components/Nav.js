@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomePage from './HomePage.js';
-import WebDev from './WebDev.js';
 
 class Nav extends React.Component {
     render() {
