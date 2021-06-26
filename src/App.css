@@ -623,6 +623,11 @@ body {
   padding: 0;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #c2c2c2;
+}
+
 /* Web Dev */
 
 .web-banner-container {
