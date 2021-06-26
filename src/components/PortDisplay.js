@@ -56,7 +56,7 @@ class PortDisplay extends React.Component {
                             </div>
                         </div>
                         <div className='icon-container'>
-                                <img src={MedIcon}/>
+                                <img src={MedIcon} alt="Icon for Med 3D app."/>
                         </div>
                     </div>
                     <div className='port-card-container'>
@@ -75,7 +75,7 @@ class PortDisplay extends React.Component {
                             </div>
                         </div>
                         <div className='icon-container'>
-                            <img src={PrintIcon}/>
+                            <img src={PrintIcon} alt="Icon for Print R2 app." />
                         </div>
                     </div>
                     <div className='port-card-container'>
@@ -97,7 +97,7 @@ class PortDisplay extends React.Component {
                             </div>
                         </div>
                         <div className='icon-container'>
-                            <img src={CryptoIcon}/>
+                            <img src={CryptoIcon} alt="Icon for Cryptotracker app."/>
                         </div>
                     </div>
                     <div className='port-card-container-alt'>
@@ -119,7 +119,7 @@ class PortDisplay extends React.Component {
                             </div>
                         </div>
                         <div className='icon-container'>
-                            <img src={Cylog}/>
+                            <img src={Cylog} alt="Icon for Cylog app."/>
                         </div>
                     </div>
                 </div> : <Skills/> }
