@@ -283,11 +283,12 @@ body {
 .main-bio {
   width: 100%;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
-.main-bio p {
+.bio-paragraph {
   font-size: 0.83;
-  transition-duration: 200ms
+  color: #363636;
 }
 
 .vert-line {
@@ -319,7 +320,7 @@ body {
   transition-duration: 200ms
 }
 
-.main-bio a {
+.learn-more {
   text-decoration: none;
   color: #f3a007;
   transition-duration: 200ms
@@ -353,9 +354,8 @@ body {
     transition-duration: 200ms;
   }
   
-  .main-bio p {
+  .bio-paragraph {
     font-size: 0.83;
-    transition-duration: 200ms;
   }
   
   .main-bio:hover p {
@@ -386,7 +386,6 @@ body {
 
   #print-card {
     order: 1;
-    transition-duration: 200ms
   }
 
   #web-card {
@@ -395,7 +394,6 @@ body {
 
   #proto-card {
     order: 5;
-    transition-duration: 200ms
   }
   
   #bio-web-title {
@@ -403,37 +401,31 @@ body {
     font-size: 1.65vw;
     margin-top: 0;
     margin-bottom: 25px;
-    transition-duration: 200ms
   }
   
   .main-bio:hover #bio-web-title {
     font-size: 2vw;
-    transition-duration: 200ms
   }
   
   .main-bio h2 {
     margin-top: 30px;
     margin-bottom: 15px;
     color: #575757;
-    transition-duration: 200ms
   }
   
   .main-bio a {
     text-decoration: none;
     color: #f3a007;
-    transition-duration: 200ms
   }
   
   .main-bio:hover a {
     font-size: 0.95vw;
-    transition-duration: 200ms
   }
   
   .web-bio-pic {
     width: 95%;
     height: 225px;
     border-radius: 5px;
-    transition-duration: 200ms
   }
   
   .main-bio:hover .web-bio-pic {
@@ -446,13 +438,12 @@ body {
     width: 80%;
     height: 200px;
     border-radius: 5px;
-    transition-duration: 200ms
   }
   
   .main-bio:hover .bio-pic {
     width: 83%;
     height: 230px;
-    transition-duration: 200ms
+    transition-duration: 200ms;
   }
 }
 
@@ -466,11 +457,11 @@ body {
   
   .bio-pic {
     width: 80%;
-    height: auto;
+    height: 180px;
     border-radius: 5px;
     overflow: hidden;
   }
-
+  
   #bio-web-title {
     font-size: 2em;
   }
@@ -494,8 +485,9 @@ body {
 
 .print-proto-heading {
   color: #f3a007;
-  width: 95%;
+  width: 100%;
   margin-right: 0;
+  margin-left: a;
 }
 
 .print-proto-main {
