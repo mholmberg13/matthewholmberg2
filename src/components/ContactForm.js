@@ -17,19 +17,19 @@ class ContactForm extends React.Component {
         return (
             <div className='form-container'>
                 <form className='contact-form' onSubmit={sendEmail}>
-                    <div class='form-group'>
+                    <div className='form-group'>
                         <label className='contact-label'>Your Name:</label>
-                        <input name='name' type='text' class='form-control' placeholder='Enter Your Name' />
+                        <input name='name' type='text' className='form-control' placeholder='Enter Your Name' />
                     </div>
-                    <div class='form-group'>
+                    <div className='form-group'>
                         <label className='contact-label'>Email address:</label>
-                        <input name='email' type='email' class='form-control' placeholder='Enter Your Email' />
+                        <input name='email' type='email' className='form-control' placeholder='Enter Your Email' />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label className='contact-label'>Message or Request:</label>
-                        <textarea name="message" class="form-control" placeholder="Enter Your Message"></textarea>
+                        <textarea name="message" className="form-control" placeholder="Enter Your Message"></textarea>
                     </div>
-                    <button type='submit' class='btn btn-primary'>Send</button>
+                    <button type='submit' className='btn btn-primary'>Send</button>
                 </form>
             </div>
         )
