@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutImg from '../img/selfportait-0037.jpg'
 
 
 class AboutMe extends React.Component {
@@ -6,7 +7,9 @@ class AboutMe extends React.Component {
         return (
             <div className='about-me'>
                 <div className='portrait-container'>
-                        
+                    <div className='portrait-container-inner'>
+                        <img src={AboutImg}/>
+                    </div>
                 </div>
                 <div className='header-bio-container'>
                     <h1 className='about-heading'>About Me</h1>

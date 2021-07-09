@@ -563,6 +563,19 @@ body {
   width: 90%;
   height: 375px;
   background-color: #575757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait-container-inner {
+  width: 60%;
+  height: 100%;
+}
+
+.portrait-container-inner img {
+  height: 100%;
+  width: 100%;
 }
 
 .header-bio-container {
