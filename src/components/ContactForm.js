@@ -8,8 +8,8 @@ function sendEmail(e) {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      });
-  }
+    });
+ }
 
 class ContactForm extends React.Component {
 
