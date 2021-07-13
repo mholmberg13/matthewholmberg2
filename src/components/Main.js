@@ -36,7 +36,7 @@ class Main extends React.Component {
                                 <h2>Prototyping</h2>
                                 <img src={image3} className="bio-pic" alt="Microcontroller close up."/>
                                 <p>
-                                    Do you have an invention or an idea that you dont have the resources or know-how to build? We can help you design and build a prototype with full confidentiality. Specializing in small electronics, robotics, and mechanics, we have a team of experienced engineers ready to bring your idea to life. 
+                                    Do you have an invention or an idea that you do not have the resources or know-how to build? We can help you design and build a prototype with full confidentiality. Specializing in small electronics, robotics, and mechanics, we have a team of experienced engineers ready to bring your idea to life. 
                                 </p>
                                 <a href="/3dprinting-prototyping">Learn More</a>
                             </div>
