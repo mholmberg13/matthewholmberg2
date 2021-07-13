@@ -12,7 +12,7 @@ class ThreeDProto extends React.Component {
                         <img src={PrintBanner} alt="3D Printer icon."/>
                     </div>
                     <div className='print-proto-bio'>
-                        <p>Starting July 15th 2021 we will be taking orders and requests for 3D printing on demand, 3D modeling, and prototyping through our custom designed and built ordering service. Production for these services will start on August 1st of 2021.</p>
+                        <p>Starting September 1st 2021 we will be taking orders and requests for 3D printing on demand, 3D modeling, and prototyping through our custom designed and built ordering service. Production for these services will start on August 1st of 2021.</p>
                     </div>
                 </div>
             </div>
