@@ -7,7 +7,7 @@ class ThreeDProto extends React.Component {
             <div className='print-proto'>
                 <h1 className='print-proto-heading'>3D Printing and Prototyping</h1>
                 <div className='print-proto-main'>
-                    <h3> - Coming July 2021 - </h3>
+                    <h3> - Coming September 2021 - </h3>
                     <div className='print-banner-container'>
                         <img src={PrintBanner} alt="3D Printer icon."/>
                     </div>
