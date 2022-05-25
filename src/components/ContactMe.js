@@ -9,7 +9,7 @@ class ContactMe extends React.Component {
                 <div className='contact-me'>
                     <hr/>
                     <h1>Contact Me</h1>
-                    <p>Send me a message or request for a project and I will get back to you as soon as possible.</p>
+                    <p>Send me a message or request for a print or prototype and I will get back to you as soon as possible.</p>
                     <ContactForm/>
                 </div>
             </div>

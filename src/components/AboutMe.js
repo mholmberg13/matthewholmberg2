@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from '../img/selfportait-0037.jpg'
+import AboutImg from '../img/about-me2.jpg'
 
 
 class AboutMe extends React.Component {
@@ -13,7 +13,7 @@ class AboutMe extends React.Component {
                 </div>
                 <div className='header-bio-container'>
                     <h1 className='about-heading'>About Me</h1>
-                    <p>As a Full Stack Web Developer, 3D Printing Technician, and Small Electronics Specialist I have brought together a team to provide quality work to all of our clients while pushing the limits of technology. With our combined experience and skills we plan to research and develop new technologies and create a better world around us. </p>
+                    <p>I am a full stack web developer that has designed, built, and maintained web applications for a large number of clients in several different industries. I have a passion for web development, 3D printing technology, and robotics and I continue to learn everyday. I aim to make a difference in the world with my talents and skills. </p>
                 </div>
             </div>
         )
